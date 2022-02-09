@@ -76,8 +76,12 @@ def reader(user,passw):
 				return False		
 
 def margin():
-	print((":--",end=="") for i in range(20))
-	print(()for i in range(3))
+	for i in range(3):
+		print()
+	for i in range(20):
+		print(":--",end="")
+	for i in range(3):
+		print()
 		
 def state_1():
 	margin()
